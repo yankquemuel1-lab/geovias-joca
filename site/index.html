@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoVias - Mapeando novos desafios</title>
+  <meta name="description" content="GeoVias - Mapeando novos desafios. Escalada, cicloturismo e aventuras na Amazônia e além.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/>
+          <path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="8" r="2" fill="#EB7B01"/>
+        </svg>
+        Geo<span>Vias</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="escalada.html">Escalada</a>
+        <a href="cicloturismo.html">Cicloturismo</a>
+        <a href="cachoeiras.html">Cachoeiras</a>
+        <a href="rondonia.html">Rondônia</a>
+        <a href="dicas.html">Dicas</a>
+        <a href="agradecimentos.html" class="btn btn-primary">Contato</a>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle" onclick="document.getElementById('nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('assets/images/0afd18e86e9600dc5df12767d5bf9e5f.jpg'); background-size: cover; background-position: center; opacity: 0.35;"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Escalada &middot; Cicloturismo &middot; Aventura</div>
+      <h1>Mapeando novos desafios na Amazônia e além</h1>
+      <p>Um projeto que nasceu do mapeamento dos setores de escalada em Rondônia, através do cicloturismo. Sem prazos, sem roteiro definitivo — apenas a estrada e a natureza.</p>
+      <div class="hero-buttons">
+        <a href="sobre.html" class="btn btn-secondary">Conheça o Projeto
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="escalada.html" class="btn btn-outline">Setores de Escalada</a>
+      </div>
+    </div>
+    <a href="#intro" class="hero-scroll">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar" id="intro">
+    <div class="stat-item">
+      <div class="stat-number">3.252</div>
+      <div class="stat-label">km percorridos em RO</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">2.455</div>
+      <div class="stat-label">km pedalados</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">8</div>
+      <div class="stat-label">trechos realizados</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">5+</div>
+      <div class="stat-label">estados visitados</div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Saindo da Zona de Conforto</h2>
+      <p class="section-subtitle">Zona de Conforto é o estágio onde estacionamos, fugindo de qualquer atividade que nos provoque medo, ansiedade ou risco.</p>
+      <div class="content-text">
+        <p>Este site contém informações e dicas para aquelas pessoas que pretendem sair da sua Zona de Conforto para ambientes naturais com segurança e informação. É praticamente um guia, que contém o mapeamento de locais onde a natureza ainda é preservada e nos mostra toda sua beleza e energia.</p>
+        <blockquote>"Se você se expõe de uma maneira louca, você morre. De uma maneira preparada, você aprende." — Carlos Burle, Surfista Profissional de Ondas Gigantes</blockquote>
+        <p>Contém também a indicação de empresas e profissionais experientes que operam atividades de aventura, e que prezam pela segurança. As informações são baseadas em experiências pessoais e contato direto com os locais e profissionais que atuam nestes lugares.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATIVIDADES -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="container">
+      <h2 class="section-title">Atividades</h2>
+      <p class="section-subtitle">Conheça as modalidades que fazem parte do projeto GeoVias</p>
+      <div class="cards-grid cards-grid-4">
+        <a href="escalada.html" class="card">
+          <div style="width:100%;height:220px;background:linear-gradient(135deg,#2d5a3e,#3F7652);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M4 20 L12 4 L20 20"/><path d="M8 14h8"/></svg>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Montanha</span>
+            <h3>Escalada e Montanhismo</h3>
+            <p>Concentração, equilíbrio e resistência. Uma filosofia de vida que vai muito além do esporte.</p>
+          </div>
+        </a>
+        <a href="cicloturismo.html" class="card">
+          <div style="width:100%;height:220px;background:linear-gradient(135deg,#c96600,#EB7B01);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l3-7h6l3 7"/><path d="M12 10V4l4 6"/></svg>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Pedal</span>
+            <h3>Cicloturismo</h3>
+            <p>Na velocidade ideal para contemplar a paisagem. Viajar de forma autônoma e em contato com a natureza.</p>
+          </div>
+        </a>
+        <a href="cachoeiras.html" class="card">
+          <div style="width:100%;height:220px;background:linear-gradient(135deg,#1565c0,#42a5f5);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M12 2c0 0-6 7-6 12a6 6 0 0012 0c0-5-6-12-6-12z"/></svg>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Natureza</span>
+            <h3>Cachoeiras e Rapel</h3>
+            <p>A sensação da alma sendo purificada. Contemplação e aventura em quedas d'água naturais.</p>
+          </div>
+        </a>
+        <a href="rafting.html" class="card">
+          <div style="width:100%;height:220px;background:linear-gradient(135deg,#00838f,#26c6da);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M2 14c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 18c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M8 6l4 4-4 4"/></svg>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Águas</span>
+            <h3>Rafting e Canoagem</h3>
+            <p>Enfrentar corredeiras e obstáculos naturais em busca de autoconhecimento.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE O PROJETO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre o Projeto</h2>
+      <p class="section-subtitle">GeoVias — Mapeando novos desafios...</p>
+      <div class="content-text">
+        <p>Este projeto começou com um mapeamento dos setores de escalada em Rondônia, através do cicloturismo. É basicamente um desafio. Não tem prazos, não tem roteiro definitivo, não tem cobrança.</p>
+        <p>É um projeto para auxiliar no desenvolvimento da escalada e de outras atividades de outdoors, mas é também um projeto para desenvolvimento pessoal. Por isso, algumas rotas e decisões serão tomadas no momento em que aparecerem as opções.</p>
+        <p>Todo este trabalho está atrelado a um projeto maior. Desde 2012, a <strong>Amazônia Vertical</strong> e a <strong>Garra Aventura</strong>, trabalham em conjunto no desenvolvimento da escalada e atividades outdoors na Amazônia.</p>
+        <p>A utilização da bike como meio de transporte vai ao encontro do incentivo aos meios alternativos de locomoção, visando menores impactos ambientais. Começamos com a estimativa de percorrer cerca de 3.000 km no estado de Rondônia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RONDÔNIA DESTAQUE -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="container">
+      <h2 class="section-title">Rondônia — Onde tudo começou</h2>
+      <p class="section-subtitle">2.093 km percorridos no estado que abriga o berço da escalada amazônica</p>
+      <div class="cards-grid cards-grid-3">
+        <div class="card">
+          <div style="width:100%;height:200px;background:linear-gradient(135deg,#2d5a3e,#5a9e72);display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;font-weight:700;">Porto Velho</div>
+          <div class="card-body">
+            <h3>Porto Velho</h3>
+            <p>Ponto de partida do projeto. Home base onde tudo começou e de onde partem as expedições.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div style="width:100%;height:200px;background:linear-gradient(135deg,#c96600,#f5a623);display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;font-weight:700;">Ouro Preto do Oeste</div>
+          <div class="card-body">
+            <h3>Ouro Preto do Oeste</h3>
+            <p>O berço da escalada de Rondônia. Primeiras chapas, primeiras escaladas, primeiros cursos.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div style="width:100%;height:200px;background:linear-gradient(135deg,#00838f,#26c6da);display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;font-weight:700;">Guajará Mirim</div>
+          <div class="card-body">
+            <h3>Guajará Mirim</h3>
+            <p>Fronteira com a Bolívia, belezas naturais e riquezas históricas. Setores de escalada impressionantes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 40px;">
+        <a href="rondonia.html" class="btn btn-primary">Ver todos os trechos
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Pronto para sair da Zona de Conforto?</h2>
+      <p>Conheça profissionais e empresas experientes que operam atividades de aventura com segurança e consciência ambiental.</p>
+      <a href="dicas.html" class="btn btn-outline">Ver Dicas e Cursos</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/>
+              <path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="8" r="2" fill="#EB7B01"/>
+            </svg>
+            Geo<span>Vias</span>
+          </div>
+          <p>Mapeando novos desafios. Escalada, cicloturismo e aventuras na Amazônia e além.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="escalada.html">Escalada</a>
+          <a href="cicloturismo.html">Cicloturismo</a>
+        </div>
+        <div class="footer-col">
+          <h4>Atividades</h4>
+          <a href="cachoeiras.html">Cachoeiras</a>
+          <a href="rafting.html">Rafting</a>
+          <a href="rondonia.html">Rondônia</a>
+          <a href="dicas.html">Dicas</a>
+        </div>
+        <div class="footer-col">
+          <h4>Parceiros</h4>
+          <a href="#">Amazônia Vertical</a>
+          <a href="#">Garra Aventura</a>
+          <a href="#">RondoBikes</a>
+          <a href="agradecimentos.html">Agradecimentos</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 GeoVias — On the road. Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>

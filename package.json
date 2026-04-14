@@ -1,0 +1,10 @@
+{
+  "name": "geovias-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Wix blog",
+  "main": "scraper.js",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rondônia - GeoVias</title>
+  <meta name="description" content="Rondônia: onde tudo começou. Cidades, setores de escalada e trechos de cicloturismo mapeados pelo GeoVias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/><path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="2" fill="#EB7B01"/></svg>
+        Geo<span>Vias</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="escalada.html">Escalada</a><a href="cicloturismo.html">Cicloturismo</a><a href="cachoeiras.html">Cachoeiras</a><a href="rondonia.html" class="active">Rondônia</a><a href="dicas.html">Dicas</a><a href="agradecimentos.html" class="btn btn-primary">Contato</a>
+      </nav>
+      <div class="mobile-toggle" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="separator">/</span><span>Rondônia</span></div>
+      <h1>Rondônia — Onde tudo começou</h1>
+      <p>2.093 km percorridos, 1.985 km pedalados no estado que abriga o berço da escalada amazônica</p>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="stat-item"><div class="stat-number">2.093</div><div class="stat-label">km total</div></div>
+    <div class="stat-item"><div class="stat-number">1.985</div><div class="stat-label">km pedalados</div></div>
+    <div class="stat-item"><div class="stat-number">1.605</div><div class="stat-label">km asfalto</div></div>
+    <div class="stat-item"><div class="stat-number">488</div><div class="stat-label">km chão</div></div>
+  </section>
+
+  <!-- CIDADES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Cidades Visitadas</h2>
+      <p class="section-subtitle">Cada cidade com seus encantos e setores de escalada</p>
+      <div class="cards-grid cards-grid-3">
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#2d5a3e,#5a9e72);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Porto Velho</div>
+          <div class="card-body">
+            <h3>Porto Velho</h3>
+            <p>Ponto de partida de todas as expedições. Home base do projeto GeoVias. Conta com a RondoBikes para preparo da bike.</p>
+            <div style="margin-top:12px;"><span class="card-tag">Pedreira (sem acesso)</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#c96600,#f5a623);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Ouro Preto do Oeste</div>
+          <div class="card-body">
+            <h3>Ouro Preto do Oeste</h3>
+            <p>O berço da escalada de Rondônia. Primeiras chapas, primeiras escaladas, primeiros cursos. Região cheia de belezas naturais.</p>
+            <div style="margin-top:12px;">
+              <span class="card-tag">Fazendinha</span>
+              <span class="card-tag">Morro da AABB</span>
+              <span class="card-tag">Pedra Olhos de Mulher</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#00838f,#26c6da);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Guajará Mirim</div>
+          <div class="card-body">
+            <h3>Guajará Mirim</h3>
+            <p>Fronteira com a Bolívia, com belezas naturais e riquezas históricas. Setores de escalada impressionantes incluindo cânions e falésias.</p>
+            <div style="margin-top:12px;">
+              <span class="card-tag">Cânion</span>
+              <span class="card-tag">Grande Falésia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#4a148c,#7b1fa2);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Ji-Paraná</div>
+          <div class="card-body">
+            <h3>Ji-Paraná</h3>
+            <p>A segunda maior cidade do estado. O rio Machado corta a cidade de colonização sulista. Aqui se escala em Arenito.</p>
+            <div style="margin-top:12px;">
+              <span class="card-tag">Pedra do Chapadão</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#e65100,#ff6d00);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Cujubim</div>
+          <div class="card-body">
+            <h3>Cujubim</h3>
+            <p>No extremo norte do estado. Local com boulders para os amantes da escalada de blocos.</p>
+            <div style="margin-top:12px;">
+              <span class="card-tag">Boulders</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="width:100%;height:180px;background:linear-gradient(135deg,#1b5e20,#388e3c);display:flex;align-items:center;justify-content:center;color:white;font-size:1.3rem;font-weight:700;">Rey do Peixe</div>
+          <div class="card-body">
+            <h3>Rey do Peixe</h3>
+            <p>Comunidade com setores de boulders para os praticantes da modalidade.</p>
+            <div style="margin-top:12px;">
+              <span class="card-tag">Boulders</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROXIMOS DESTINOS -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="container">
+      <h2 class="section-title">Próximos Destinos</h2>
+      <p class="section-subtitle">Cidades que fazem parte dos objetivos futuros da expedição</p>
+      <div class="cards-grid cards-grid-2" style="max-width:700px;margin:0 auto;">
+        <div class="card">
+          <div class="card-body">
+            <h3>Costa Marques</h3>
+            <p>Outra cidade que faz divisa com a Bolívia, com belezas naturais e riquezas históricas. Conhecer o vale do Guaporé é o objetivo da expedição.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Vilhena</h3>
+            <p>Porta de entrada ou saída do Estado, dependendo do sentido. É uma das cidades mais altas, o que favorece no clima. O relevo também é bem favorável ao aparecimento de rochas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Veja os Trechos Detalhados</h2>
+      <p>Cada trecho percorrido com quilometragem, tipo de terreno e relatos.</p>
+      <a href="cicloturismo.html" class="btn btn-outline">Ver Trechos de Cicloturismo</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo"><svg width="28" height="28" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/><path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="2" fill="#EB7B01"/></svg> Geo<span>Vias</span></div>
+          <p>Mapeando novos desafios. Escalada, cicloturismo e aventuras na Amazônia e além.</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="escalada.html">Escalada</a><a href="cicloturismo.html">Cicloturismo</a></div>
+        <div class="footer-col"><h4>Atividades</h4><a href="cachoeiras.html">Cachoeiras</a><a href="rafting.html">Rafting</a><a href="rondonia.html">Rondônia</a><a href="dicas.html">Dicas</a></div>
+        <div class="footer-col"><h4>Parceiros</h4><a href="#">Amazônia Vertical</a><a href="#">Garra Aventura</a><a href="#">RondoBikes</a><a href="agradecimentos.html">Agradecimentos</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2024 GeoVias — On the road. Todos os direitos reservados.</span></div>
+    </div>
+  </footer>
+
+  <script>window.addEventListener('scroll', () => { document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50); });</script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cicloturismo - GeoVias</title>
+  <meta name="description" content="Cicloturismo pelo projeto GeoVias: trechos, rotas e experiências pedalando por Rondônia e Mato Grosso.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/><path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="2" fill="#EB7B01"/></svg>
+        Geo<span>Vias</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="escalada.html">Escalada</a>
+        <a href="cicloturismo.html" class="active">Cicloturismo</a>
+        <a href="cachoeiras.html">Cachoeiras</a>
+        <a href="rondonia.html">Rondônia</a>
+        <a href="dicas.html">Dicas</a>
+        <a href="agradecimentos.html" class="btn btn-primary">Contato</a>
+      </nav>
+      <div class="mobile-toggle" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="separator">/</span><span>Cicloturismo</span></div>
+      <h1>Cicloturismo</h1>
+      <p>Na velocidade ideal para contemplar a paisagem — viajando de forma autônoma</p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <div class="content-text">
+        <p>A atividade que cresce no mundo todo é poder viajar de forma autônoma, na velocidade certa para contemplar a paisagem. A Europa sai na frente também nessa modalidade com quase 70 mil km de ciclovias para os viajantes, além de estruturas de apoio e incentivo.</p>
+        <blockquote>"A bike vai, realmente, na velocidade ideal." — Fabrício Kriger</blockquote>
+        <p>Conhecer os lugares através do cicloturismo é um desafio que começa dentro da cabeça, na firmeza do pensamento. Um bom preparo da bike também é indispensável para quem pretende passar alguns dias pedalando.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS RONDONIA -->
+  <section class="stats-bar">
+    <div class="stat-item"><div class="stat-number">3.252</div><div class="stat-label">km total em RO</div></div>
+    <div class="stat-item"><div class="stat-number">2.455</div><div class="stat-label">km pedalados</div></div>
+    <div class="stat-item"><div class="stat-number">29</div><div class="stat-label">km empurrando</div></div>
+    <div class="stat-item"><div class="stat-number">8</div><div class="stat-label">trechos</div></div>
+  </section>
+
+  <!-- TRECHOS RONDONIA -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="container">
+      <h2 class="section-title">Trechos — Rondônia</h2>
+      <p class="section-subtitle">8 trechos percorridos mapeando o estado</p>
+      <div style="display:flex;flex-direction:column;gap:20px;max-width:800px;margin:0 auto;">
+
+        <div class="route-card">
+          <div class="route-number">1</div>
+          <div>
+            <h3>Porto Velho → Guajará Mirim</h3>
+            <p>Primeiro trecho, classificado como teste para o restante do projeto. Algumas trapalhadas, mas grandes aprendizados. 319 km em três dias de estrada, 24 horas de pedal.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>319 km</strong> total</span>
+              <span class="route-stat"><strong>3 dias</strong> de viagem</span>
+              <span class="route-stat">Asfalto + Chão</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">2</div>
+          <div>
+            <h3>Guajará Mirim → Tracoá</h3>
+            <p>Percurso mais extenso — 8 dias. Estrada com muitos desníveis, acidentados e a tremedeira dos buracos. Objetivo: conhecer a área mais alta e mais protegida do Estado, Serra dos Parecis.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>327 km</strong> total</span>
+              <span class="route-stat"><strong>8 dias</strong> de viagem</span>
+              <span class="route-stat">100% bike</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">3</div>
+          <div>
+            <h3>Tracoá → Cujubim</h3>
+            <p>Do centro para o extremo norte do estado. Marcado por várias surpresas: bike quebrada, escaladas, pausa para descanso, pedalada com a galera.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>341 km</strong> total</span>
+              <span class="route-stat"><strong>329 km</strong> bike</span>
+              <span class="route-stat">12 km carona</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">4</div>
+          <div>
+            <h3>Cujubim → Ouro Preto do Oeste</h3>
+            <p>Ouro Preto do Oeste é a cidade onde tudo começou. As primeiras chapas, as primeiras escaladas, primeiros cursos. O berço da escalada de Rondônia.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>306 km</strong> total</span>
+              <span class="route-stat"><strong>217 km</strong> bike</span>
+              <span class="route-stat">17 km à pé</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">5</div>
+          <div>
+            <h3>Porto Velho → Ji-Paraná</h3>
+            <p>Retomando as aventuras, saindo novamente de casa para fazer todos os testes. O percurso agora seria em outra direção, seguindo o eixo principal da BR 364.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>372 km</strong> total</span>
+              <span class="route-stat"><strong>355 km</strong> bike</span>
+              <span class="route-stat">100% asfalto</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">6</div>
+          <div>
+            <h3>Ji-Paraná → Vilhena</h3>
+            <p>Saindo para uma área menos conhecida. A aventura começa a ter novos desafios, o psicológico tem sido o fator a ser trabalhado com mais frequência.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>446 km</strong> total</span>
+              <span class="route-stat"><strong>100%</strong> bike</span>
+              <span class="route-stat">Asfalto + Chão</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">7</div>
+          <div>
+            <h3>Vilhena → Tangará da Serra</h3>
+            <p>A primeira viagem para fora do estado. Os pequenos problemas se tornam maiores do que realmente eram, mas os desafios devem ser enfrentados. Travessia RO → MT.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>503 km</strong> total</span>
+              <span class="route-stat"><strong>482 km</strong> bike</span>
+              <span class="route-stat">50 km sem acostamento</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-number">8</div>
+          <div>
+            <h3>Tangará da Serra → Cuiabá</h3>
+            <p>A aventura até o centro geodésico da América do Sul. Várias aventuras, vários reencontros, várias experiências. Uma viagem alucinante para fechar mais uma etapa do projeto.</p>
+            <div class="route-stats">
+              <span class="route-stat"><strong>338 km</strong> total</span>
+              <span class="route-stat"><strong>313 km</strong> bike</span>
+              <span class="route-stat">70 km sem acostamento</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPORTE -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Suporte na Estrada</h2>
+      <p class="section-subtitle">Profissionais e empresas que apoiam cicloturistas</p>
+      <div class="cards-grid cards-grid-2">
+        <div class="operator-card">
+          <h3>RondoBikes</h3>
+          <div class="location">Porto Velho — Rondônia</div>
+          <p>Além de contar com equipamentos de ótima qualidade e marcas consagradas, conta também com uma equipe de profissionais que realmente curte a magrela. O Walla é um dos principais responsáveis por essa evolução. A bike do projeto GeoVias foi toda preparada lá.</p>
+        </div>
+        <div class="operator-card">
+          <h3>Bike Shop</h3>
+          <div class="location">Tangará da Serra — Mato Grosso</div>
+          <p>A galera tem experiências de mais de décadas com as magrelas e sua equipe conta com atletas de alto nível com experiência internacional. Rodolfo e Rodrigo são as pessoas que o projeto mais indica para ter informações sobre a região e assistência técnica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Explore Rondônia</h2>
+      <p>Veja detalhes de cada cidade visitada e seus setores de escalada.</p>
+      <a href="rondonia.html" class="btn btn-outline">Ver Rondônia</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo"><svg width="28" height="28" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#3F7652" stroke-width="2.5"/><path d="M8 20 L14 10 L20 16 L24 8" stroke="#EB7B01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="2" fill="#EB7B01"/></svg> Geo<span>Vias</span></div>
+          <p>Mapeando novos desafios. Escalada, cicloturismo e aventuras na Amazônia e além.</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="escalada.html">Escalada</a><a href="cicloturismo.html">Cicloturismo</a></div>
+        <div class="footer-col"><h4>Atividades</h4><a href="cachoeiras.html">Cachoeiras</a><a href="rafting.html">Rafting</a><a href="rondonia.html">Rondônia</a><a href="dicas.html">Dicas</a></div>
+        <div class="footer-col"><h4>Parceiros</h4><a href="#">Amazônia Vertical</a><a href="#">Garra Aventura</a><a href="#">RondoBikes</a><a href="agradecimentos.html">Agradecimentos</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2024 GeoVias — On the road. Todos os direitos reservados.</span></div>
+    </div>
+  </footer>
+
+  <script>window.addEventListener('scroll', () => { document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50); });</script>
+</body>
+</html>
